@@ -1,0 +1,56 @@
+
+h1 {
+	padding: 15px;
+	display: grid;
+	justify-content: center;
+	text-decoration-color: orange; 
+}
+
+body {
+	background;
+    background-image: 
+	url(pretty.png),
+    url(sum.png),
+    url(sqrt_2.png),
+    url(sqrt_x.png),
+    url(log.png),
+    url(page.jpg);
+	background-position:
+    top 178px left 40px,
+    top 150px right 68px,
+    bottom 0px right 10px,
+    bottom 10px left 10px,
+    bottom 158px left 0px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    background-size:  170px, 150px, 200px, 150px, 300px, cover; 
+}
+
+#audio-example {
+	display: block;
+}
+
+.container {
+	display: grid;
+	justify-content: center;
+	margin: 180px;
+}
+
+.btn {
+	width: 375px;
+	height: 80px;
+	margin: 10px;
+}
+
+.btn:hover {
+	width: 450px;
+	height: 100px;
+	transition: 1s ease-in-out;
+}
+
+
+.font{
+	color: powderblue;
+	font-family: 'Rubik', sans-serif;
+}
+
+
