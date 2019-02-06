@@ -190,6 +190,10 @@ input, select, textarea {
 	#pa4 {
 		color: rgb(42, 154, 219)
 	}
+
+	#pa5{
+		color: #7EBD00;
+	}
 	#pa1, #pa2, #pa3, #pa4 {
 		display: inline;
 	}
