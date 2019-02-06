@@ -176,6 +176,7 @@ input, select, textarea {
 		line-height: 1.3;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
+		background-image: "p1z1.png";
 	}
 
 		h1 {
@@ -184,7 +185,7 @@ input, select, textarea {
 
 
 	#pa2 {
-		color: red
+		color: rgb(216, 94, 94)
 	}
 	#pa4 {
 		color: rgb(42, 154, 219)
@@ -1804,6 +1805,9 @@ input, select, textarea {
 
 	header p {
 		margin-top: -1em;
+	}
+	p {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 	}
 
 	@media screen and (max-width: 736px) {
