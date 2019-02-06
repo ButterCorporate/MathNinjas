@@ -2688,22 +2688,36 @@ input, select, textarea {
 			.tiles article.style1 > .image:before {
 				
 				background-image: url("a1.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-image: url("a2.2.png");			}
+				background-image: url("a2.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;
+						}
 
 			.tiles article.style3 > .image:before {
-				background-image: url("a3.2.png");			}
+				background-image: url("a3.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;
+						}
 
 			.tiles article.style4 > .image:before {
-				background-image: url("a4.2.png");			}
+				background-image: url("a4.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;			}
 
 			.tiles article.style5 > .image:before {
-				background-image: url("a5.2.png");			}
+				background-image: url("a5.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;			}
 
 			.tiles article.style6 > .image:before {
-				background-image: url("a6.2.png");			}
+				background-image: url("a6.2.png");
+				background-size:cover;
+				background-repeat: no-repeat;			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
