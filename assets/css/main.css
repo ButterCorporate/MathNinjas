@@ -1,6 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
+@font-face {
+	font-family: "Urban";
+	src: url("urban_sketch/Urban.ttf");
+  }
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -207,11 +211,12 @@ input, select, textarea {
 		}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 1000;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
+		font-family: "Chalkduster";
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -219,7 +224,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.0em;
 	}
 
 	h3 {
@@ -249,7 +254,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: .9em;
 		}
 
 		h3 {
@@ -2234,7 +2239,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Urban";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2677,6 +2682,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
+				
 				background-image: url("a1.2.png");
 			}
 
