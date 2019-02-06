@@ -5,6 +5,7 @@
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	HOla
 */
 
 html, body, div, span, applet, object,
@@ -2570,7 +2571,7 @@ input, select, textarea {
 		margin: -2.5em 0 0 -2.5em;
 	}
 
-		.tiles article {
+/*		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
@@ -2578,9 +2579,9 @@ input, select, textarea {
 			position: relative;
 			width: calc(33.3333333333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
-		}
+		}*/
 
-			.tiles article > .image {
+			/*.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
@@ -2595,8 +2596,8 @@ input, select, textarea {
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
-				}
-
+				}*/
+/*
 				.tiles article > .image:before {
 					pointer-events: none;
 					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
@@ -2614,10 +2615,10 @@ input, select, textarea {
 					z-index: 1;
 					opacity: 0.8;
 				}
-
+*/
 		
 
-			.tiles article > a {
+/*			.tiles article > a {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2650,9 +2651,9 @@ input, select, textarea {
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
-			}
+			}*/
 
-				.tiles article > a > :last-child {
+	/*			.tiles article > a > :last-child {
 					margin: 0;
 				}
 
@@ -2678,22 +2679,20 @@ input, select, textarea {
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
-					}
+					}*/
+
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
 			}
 
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
 			}
 
-			.tiles article.style4 > .image:before {
+			/*.tiles article.style4 > .image:before {
 				background-color: #c75b9b;
 			}
 
@@ -2703,12 +2702,8 @@ input, select, textarea {
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
-			}
-
-			.tiles article.style1a > .image:hover {
-				background-color: #f2849e;
-			}
-
+			}*/
+/*
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2728,9 +2723,9 @@ input, select, textarea {
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
-			}
+*/			}
 
-		* + .tiles {
+		/** + .tiles {
 			margin-top: 2em;
 		}
 
@@ -2771,9 +2766,9 @@ input, select, textarea {
 					margin: 2.5em 0 0 2.5em;
 				}
 
-		}
+		}*/
 
-		@media screen and (max-width: 736px) {
+/*		@media screen and (max-width: 736px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
@@ -2804,7 +2799,7 @@ input, select, textarea {
 					margin: 1.25em 0 0 0;
 				}
 
-		}
+		}*/
 
 /* Header */
 
