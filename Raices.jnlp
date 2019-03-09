@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="file:///Users/agusquintanar/Desktop/ButterCorporate/MathNinjas/generic.html" href="Raices.jnlp">
+<information>
+	<title>Demostracion de aplicacion de Calculadora</title>
+	<vendor>Agus</vendor>
+	<description>Una calculadora</description>
+	
+</information>
+<resources>
+	<j2se version="5.0+"/>
+	<jar href="Raices.jar"/>
+</resources>
+
+<application-desc main-class="ClasePrincipal">
+</application-desc>
+
+</jnlp>
